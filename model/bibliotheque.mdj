@@ -611,7 +611,7 @@
 											"top": 215,
 											"width": 64.2353515625,
 											"height": 13,
-											"text": "Livre"
+											"text": "Ouvrage"
 										},
 										{
 											"_type": "LabelView",
@@ -1095,7 +1095,7 @@
 											"parentStyle": true,
 											"left": 125,
 											"top": 423,
-											"width": 54.44091796875,
+											"width": 83.0244140625,
 											"height": 13,
 											"text": "Emprunt"
 										},
@@ -1133,7 +1133,7 @@
 									"parentStyle": true,
 									"left": 120,
 									"top": 416,
-									"width": 64.44091796875,
+									"width": 93.0244140625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhMjDYmYxpBPE="
@@ -1157,12 +1157,32 @@
 									"model": {
 										"$ref": "AAAAAAGhMjDYmIxlObk="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGhMoYMqNtKDJA=",
+											"_parent": {
+												"$ref": "AAAAAAGhMjDYmYxtcng="
+											},
+											"model": {
+												"$ref": "AAAAAAGhMoYMkdtHhZs="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 125,
+											"top": 446,
+											"width": 83.0244140625,
+											"height": 13,
+											"text": "+dateEmprunt",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 120,
 									"top": 441,
-									"width": 64.44091796875,
-									"height": 10
+									"width": 93.0244140625,
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1176,8 +1196,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 120,
-									"top": 451,
-									"width": 64.44091796875,
+									"top": 464,
+									"width": 93.0244140625,
 									"height": 10
 								},
 								{
@@ -1220,8 +1240,8 @@
 							"containerChangeable": true,
 							"left": 120,
 							"top": 416,
-							"width": 63.44091796875,
-							"height": 45,
+							"width": 92.0244140625,
+							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGhMjDYmYxohtw="
 							},
@@ -1344,7 +1364,18 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Emprunt"
+					"name": "Emprunt",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGhMoYMkdtHhZs=",
+							"_parent": {
+								"$ref": "AAAAAAGhMjDYmIxlObk="
+							},
+							"name": "dateEmprunt",
+							"type": ""
+						}
+					]
 				}
 			]
 		},
